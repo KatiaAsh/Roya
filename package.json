@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "serve-favicon": "^2.4.5"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/test.js | tap-spec",
+    "start": "node src/server.js",
+    "devStart": "nodemon -q src/server.js"
   },
   "repository": {
     "type": "git",
