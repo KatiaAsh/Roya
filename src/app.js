@@ -3,7 +3,6 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 // const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
-// const cookieParser = require('cookie-parser');
 
 const controllers = require('./controllers/index');
 
@@ -20,10 +19,6 @@ app.engine('hbs', exphbs({
 
 // for parsing application/json
 app.use(bodyParser.json());
-// app.use(cookieParser());
-
-// for parsing xwww- /URL-encoded bodies
-app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('port', process.env.PORT || 8080);
 app.use(express.static(path.join(__dirname, '..', 'public')));
