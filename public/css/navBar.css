@@ -10,13 +10,6 @@ nav {
   opacity: 0.8;
 }
 
-h3 {
-  size: 16px;
-  top: 2.5px;
-  position: absolute;
-  color: red;
-}
-
 .link {
   flex-grow: 1;
   display: flex;
