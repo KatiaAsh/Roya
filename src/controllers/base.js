@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-  res.render('base', {layout: 'base'});
+  res.render('landing', {layout: 'baseLanding'});
 };
