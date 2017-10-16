@@ -7,11 +7,13 @@ const router = express.Router();
 const base = require('./base');
 const generalGuidelines = require('./generalGuidelines');
 const balloonInstructions = require('./balloonInstructions');
+const result = require('./result');
 
 // require hbs file
 router.get('/', base);
 router.get('/generalGuidelines', generalGuidelines);
 router.get('/balloonInstructions', balloonInstructions);
+router.get('/result', result);
 
 // router.use(error.client);
 // router.use(error.server);
