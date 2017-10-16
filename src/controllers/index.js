@@ -5,9 +5,10 @@ const router = express.Router();
 
 // require js file
 const base = require('./base');
-
+const generalGuidelines = require('./generalGuidelines');
 // require hbs file
 router.get('/', base);
+router.get('/generalGuidelines', generalGuidelines);
 
 // router.use(error.client);
 // router.use(error.server);
