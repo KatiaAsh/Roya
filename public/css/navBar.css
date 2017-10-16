@@ -10,6 +10,13 @@ nav {
   opacity: 0.8;
 }
 
+h3 {
+  size: 16px;
+  top: 2.5px;
+  position: absolute;
+  color: red;
+}
+
 .link {
   flex-grow: 1;
   display: flex;
@@ -25,8 +32,7 @@ nav {
   color: white;
 }
 
-/*Soon*/
-/*.userEn {
+.userEn {
   z-index: 0;
   flex-grow: 3;
   text-align: right;
@@ -43,4 +49,4 @@ nav {
   color: white;
   position: relative;
   right: 10%;
-}*/
+}
