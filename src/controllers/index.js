@@ -13,6 +13,7 @@ const hanoiResult = require('./hanoiResult');
 const traits = require('./traits');
 const degree = require('./degree');
 const game = require('./game');
+const gameHanoi = require('./gameHanoi');
 
 // require hbs file
 router.get('/', base);
@@ -24,6 +25,7 @@ router.get('/hanoiResult', hanoiResult);
 router.get('/traits', traits);
 router.get('/degree', degree);
 router.get('/game', game);
+router.get('/gameHanoi', gameHanoi);
 
 // router.use(error.client);
 // router.use(error.server);
