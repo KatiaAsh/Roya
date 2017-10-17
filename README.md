@@ -28,7 +28,7 @@ The main users of this App are students between the ages of 18 - 24. Career coun
 #### Credit
 This project is initiated by Education Lab and Founders and Coders.
 
-Made By:
+Update By:
  + Katia Ashkar  - [@KatiaAsh](github.com/KatiaAsh)
 
 ## User Journey
